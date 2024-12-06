@@ -6,6 +6,12 @@ import { Partners } from "@/components/sections/home/partners";
 import { Sources } from "@/components/sections/home/sources";
 import React from "react";
 
+export const metadata = {
+  title: "Home",
+  description:
+    "Welcome to CogniBrain!! Remember more with less effort, AI-powered flashcard generation, Personalized review schedules, Interactive knowledge testing, Progress tracking and insights",
+};
+
 const page = () => {
   return (
     <div>
